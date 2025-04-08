@@ -1,0 +1,487 @@
+npm install --save-dev hardhat @openzeppelin/contracts ethers
+ls
+console.log(nameWrapper)
+await nameWrapper.setApprovalForAll(yourContractAddress, true);
+const yourContractAddress = "0x8C04ca86669a0F08fab1b4b0753C98a04ac9D837"; // Replace with your deployed contract address
+const nameWrapper3 = new ethers.Contract(nameWrapperAddress, abi, signer);
+const nameWrapper2 = new ethers.Contract(nameWrapperAddress, abi, signer);
+const nameWrapper = new ethers.Contract(nameWrapperAddress, abi, signer);
+const abi = contractJson2.abi;
+const contractJson2 = require('./artifacts/contracts/SubdomainRegister9.sol/SubdomainRegister9.json');
+const contractJson = require('./artifacts/contracts/SubdomainRegister9.sol/SubdomainRegister9.json');
+const contractJson = require('./artifacts/contracts/YourContract.sol/YourContract.json');
+const nameWrapperAddress = "0x0635513f179D50A207757E05759CbD106d7dFcE8"; 
+const [signer] = await ethers.getSigners();
+await nameWrapper2.setApprovalForAll("0x8C04ca86669a0F08fab1b4b0753C98a04ac9D837", true);
+const nameWrapper2 = await ethers.getContractAt("INameWrapper", "0x0635513f179D50A207757E05759CbD106d7dFcE8");
+const nameWrapper = await ethers.getContractAt("INameWrapper", "0x0635513f179D50A207757E05759CbD106d7dFcE8");
+const nameWrapper = await ethers.getContractAt("INameWrapper", "0xYourNameWrapperAddress");
+await contract.checkApproval()
+namehash("xist.eth")
+const { namehash } = require('ethers');
+await contract.register("hello", { value: ethers.parseEther("0.01") });
+const contract = await ethers.getContractAt("SubdomainRegister9", "0x8C04ca86669a0F08fab1b4b0753C98a04ac9D837");
+console.log("Transaction Receipt:", receipt2);
+console.log("Transaction Receipt:", receipt);
+const receipt2 = await tx2.wait();
+const receipt = await tx2.wait();
+const receipt = await tx.wait();
+console.log("Transaction Hash:", tx2.hash);
+console.log("Transaction Hash:", tx.hash);
+const tx2 = await contract.register("your_subdomain", { value: ethers.parseEther("0.01"),gasLimit: 500000});
+const tx = await contract.register("your_subdomain", { value: ethers.parseEther("0.01"),gasLimit: 500000});
+const tx = await contract.register("your_subdomain", { value: ethers.utils.parseEther("0.01"),gasLimit: 500000});
+console.log("Registration Fee:", ethers.formatEther(fee));
+console.log("Resolver:", await contract.resolver());
+console.log("Parent Node:", await contract.parentNode());
+console.log("Registration Fee:", ethers.utils.formatEther(fee));
+const fee = await contract.registrationFee();
+const contract = await ethers.getContractAt("SubdomainRegister9", contractAddress);
+const abi = contractJson.abi;
+const contractJson = require("./artifacts/contracts/SubdomainRegister9.sol/SubdomainRegister9.json");
+const contractAddress = "0x34A7ee572a3Db1eB3bcE1AD6eAc7c2CdCA77fEB7";
+const tx5 = await sender.sendTransaction({to: '0x918eC9f6dCaC5602198e649822A5cd70B51696E4',value: ethers.utils.parseEther("0.1"),  });
+const tx = await sender.sendTransaction({to: '0x918eC9f6dCaC5602198e649822A5cd70B51696E4',value: ethers.utils.parseEther("0.1"),  });
+const receipt = await tx4.wait();
+const tx4 = await contract2.register("your_subdomain", {value: ethers.parseEther("0.01"),gasLimit: 500000 });
+const tx3 = await contract2.register("your_subdomain", {value: ethers.parseEther("0.01"),gasLimit: 500000 });
+const tx3 = await contract2.register("your_subdomain", {value: ethers.utils.parseEther("0.01"),gasLimit: 500000 });
+const tx2 = await contract2.register("your_subdomain", {value: ethers.utils.parseEther("0.01"),gasLimit: 500000 });
+console.log("Contract Balance: ", ethers.formatEther(contractBalance));
+console.log("Contract Balance: ", ethers.utils.formatEther(contractBalance));
+const contractBalance = await contract2.getContractBalance();
+console.log("Approval status: ", isApproved);
+const isApproved = await contract2.checkApproval();
+console.log("Resolver: ", resolver);
+const resolver = await contract2.resolver();
+console.log("Parent Node: ", parentNode);
+const parentNode = await contract2.parentNode();
+console.log("Current Registration Fee: ", ethers.formatEther(registrationFee));
+console.log("Current Registration Fee: ", ethers.utils.formatEther(registrationFee));
+const registrationFee = await contract2.registrationFee();
+const tx2 = await contract2.register("your_subdomain", { value: ethers.parseEther("0.01") }); 
+const tx = await contract2.register("your_subdomain", { value: ethers.parseEther("0.01") }); 
+const tx = await contract2.register("your_subdomain", { value: ethers.utils.parseEther("0.01") }); 
+const contract2 = await ethers.getContractAt("SubdomainRegister9", "0x918eC9f6dCaC5602198e649822A5cd70B51696E4");
+const contract = await ethers.getContractAt("SubdomainRegister9", "0x918eC9f6dCaC5602198e649822A5cd70B51696E4");
+const contract = await ethers.getContractAt("SubdomainRegister9", "your_deployed_contract_address");
+const isApproved = await contract.checkApproval();
+> const isApproved = await contract.checkApproval();
+undefined
+}
+  [Symbol(_ethersInternal_contract)]: {}
+  fallback: null,
+  filters: {},
+  runner: null,
+  },
+    receive: false
+    fallback: null,
+    },
+      gas: null
+      payable: false,
+      inputs: [Array],
+      type: 'constructor',
+    deploy: ConstructorFragment {
+    ],
+      [FunctionFragment],    [FunctionFragment]
+      [FunctionFragment],    [FunctionFragment],
+      [EventFragment],       [EventFragment],
+      [ConstructorFragment], [EventFragment],
+    fragments: [
+  interface: Interface {
+  target: '0x547ca019C129FCB9c6EFE996F031Eb3C0EC0C048',
+Contract {
+console.log(contract)
+const approvalTx = await contract.grantApproval();
+const contract = new ethers.Contract(contractAddress, abi, signer3);
+const signer4 = signers[0];
+const signer3 = signers[0];
+const signer = signers[0];
+console.log(signers);
+const signers = await ethers.getSigners();
+const signer3 = await ethers.getSigner(0); 
+const signer = await ethers.getSigner(0); 
+const signer2 = await ethers.getSigner();
+const signer = await ethers.getSigner();
+console.log(ethers)
+const signer = await ethers.getSigner();
+const abi = contractJson.abi;
+const contractJson = require("./artifacts/contracts/SubdomainRegister8.sol/SubdomainRegister8.json");
+const contractAddress = "0x547ca019C129FCB9c6EFE996F031Eb3C0EC0C048";
+npx hardhat compile
+ const isApproved4 = await contract.isApprovedForAll('0x953Be446b3Cf747A910dfB645602D7370081129E', '0x27D61328d814e3EaecE27Cd9A1B47cB14F4094A7');
+ const isApproved3 = await contract.isApprovedForAll('0x953Be446b3Cf747A910dfB645602D7370081129E', '0x27D61328d814e3EaecE27Cd9A1B47cB14F4094A7');
+ const isApproved2 = await contract.isApprovedForAll('0x953Be446b3Cf747A910dfB645602D7370081129E', '0x27D61328d814e3EaecE27Cd9A1B47cB14F4094A7');
+const tx2 = await contract.grantApproval();
+const tx = await contract.grantApproval();
+console.log(ethers)
+console.log(tx)
+console.log(contract)
+ const isApproved2 = await contract.isApprovedForAll('0x953Be446b3Cf747A910dfB645602D7370081129E', '0x27D61328d814e3EaecE27Cd9A1B47cB14F4094A7');
+ const isApproved = await contract.isApprovedForAll('0x953Be446b3Cf747A910dfB645602D7370081129E', '0x27D61328d814e3EaecE27Cd9A1B47cB14F4094A7');
+const approve = await contract.grantApproval();  // Grant approval to the contract
+const tx = await contract.grantApproval();  // Grant approval to the contract
+console.log("Is contract approved to manage:", isApproved);
+const isApproved = await contract.checkApproval();
+console.log(tx)
+console.log("Transaction sent: ", tx.hash);
+const tx = await contract.register(label, { value: registrationFee });
+const registrationFee = await contract.registrationFee(); // Get the fee
+const label = "mysubdomain"; // Replace with the subdomain name you want
+console.log("Registration Fee:", ethers.formatEther(registrationFee));
+console.log(ethers)
+console.log(ethers.utils)
+console.log("Registration Fee:", ethers.utils.formatEther(registrationFee)); // In ether format
+const { ethers } = require("hardhat");
+console.log("Registration Fee (raw):", fee);
+const fee = await contract.registrationFee();
+console.log("Registration Fee:", ethers.utils.formatEther(registrationFee)); // In ether format
+const registrationFee = await contract.registrationFee();
+console.log("Registration Fee:", ethers.utils.formatEther(registrationFee)); // In ether format
+const registrationFee = await contract.registrationFee();
+console.log("Contract address:", contract.target); // It should return the contract address
+console.log(contract)
+console.log("Contract address:", contract.address); // Confirm contract address
+const contract = new ethers.Contract(contractAddress, abi, signer2);
+const signer2 = new ethers.Wallet('088ad78a430155767779248869bcadda9b7368579d30a8063f01d9eed8e20737', ethers.provider);
+const signer = new ethers.Wallet('088ad78a430155767779248869bcadda9b7368579d30a8063f01d9eed8e20737', ethers.provider);
+const signer = await ethers.getSigner();
+const contractAddress = '0x27D61328d814e3EaecE27Cd9A1B47cB14F4094A7';
+const abi = contractJson.abi;
+const contractJson = require('./artifacts/contracts/SubdomainRegister8.sol/SubdomainRegister8.json');
+const contract3 = new ethers.Contract(contractAddress, abi, signer);
+const abi = contractJson.abi;
+const contractJson = require('./artifacts/contracts/SubdomainRegister8.sol/SubdomainRegister8.json');
+npx hardhat compile
+const contract3 = new ethers.Contract(contractAddress, abi, signer);
+const contract = new ethers.Contract(contractAddress, abi, signer);
+const abi = contractJson.abi;
+const contractJson = require('./artifacts/contracts/SubdomainRegister8.sol/SubdomainRegister8.json');
+  ],
+    }
+      "type": "function"
+      "stateMutability": "nonpayable",
+      "outputs": [],
+      "name": "withdraw",
+      "inputs": [],
+    {
+    },
+      "type": "function"
+      "stateMutability": "nonpayable",
+      "outputs": [],
+      "name": "transferOwnership",
+      ],
+        }
+          "type": "address"
+          "name": "newOwner",
+          "internalType": "address",
+        {
+      "inputs": [
+    {
+    },
+      "type": "function"
+      "stateMutability": "nonpayable",
+      "outputs": [],
+      "name": "setRegistrationFee",
+      ],
+        }
+          "type": "uint256"
+          "name": "_fee",
+          "internalType": "uint256",
+        {
+      "inputs": [
+    {
+    },
+      "type": "function"
+      "stateMutability": "nonpayable",
+      "outputs": [],
+      "name": "setFeeRecipient",
+      ],
+        }
+          "type": "address"
+          "name": "_recipient",
+          "internalType": "address",
+        {
+      "inputs": [
+    {
+    },
+      "type": "function"
+      "stateMutability": "view",
+      ],
+        }
+          "type": "address"
+          "name": "",
+          "internalType": "address",
+        {
+      "outputs": [
+      "name": "resolver",
+      "inputs": [],
+    {
+    },
+      "type": "function"
+      "stateMutability": "nonpayable",
+      "outputs": [],
+      "name": "renounceOwnership",
+      "inputs": [],
+    {
+    },
+      "type": "function"
+      "stateMutability": "view",
+      ],
+        }
+          "type": "uint256"
+          "name": "",
+          "internalType": "uint256",
+        {
+      "outputs": [
+      "name": "registrationFee",
+      "inputs": [],
+    {
+    },
+      "type": "function"
+      "stateMutability": "payable",
+      "outputs": [],
+      "name": "register",
+      ],
+        }
+          "type": "string"
+          "name": "label",
+          "internalType": "string",
+        {
+      "inputs": [
+    {
+    },
+      "type": "function"
+      "stateMutability": "view",
+      ],
+        }
+          "type": "bytes32"
+          "name": "",
+          "internalType": "bytes32",
+        {
+      "outputs": [
+      "name": "parentNode",
+      "inputs": [],
+    {
+    },
+      "type": "function"
+      "stateMutability": "view",
+      ],
+        }
+          "type": "address"
+          "name": "",
+          "internalType": "address",
+        {
+      "outputs": [
+      "name": "owner",
+      "inputs": [],
+    {
+    },
+      "type": "function"
+      "stateMutability": "view",
+      ],
+        }
+          "type": "address"
+          "name": "",
+          "internalType": "contract INameWrapper",
+        {
+      "outputs": [
+      "name": "nameWrapper",
+      "inputs": [],
+    {
+    },
+      "type": "function"
+      "stateMutability": "nonpayable",
+      "outputs": [],
+      "name": "grantApproval",
+      "inputs": [],
+    {
+    },
+      "type": "function"
+      "stateMutability": "view",
+      ],
+        }
+          "type": "address"
+          "name": "",
+          "internalType": "address",
+        {
+      "outputs": [
+      "name": "getParentOwner",
+      "inputs": [],
+    {
+    },
+      "type": "function"
+      "stateMutability": "view",
+      ],
+        }
+          "type": "uint256"
+          "name": "",
+          "internalType": "uint256",
+        {
+      "outputs": [
+      "name": "getContractBalance",
+      "inputs": [],
+    {
+    },
+      "type": "function"
+      "stateMutability": "view",
+      ],
+        }
+          "type": "address"
+          "name": "",
+          "internalType": "address",
+        {
+      "outputs": [
+      "name": "feeRecipient",
+      "inputs": [],
+    {
+    },
+      "type": "function"
+      "stateMutability": "view",
+      ],
+        }
+          "type": "bool"
+          "name": "",
+          "internalType": "bool",
+        {
+      "outputs": [
+      "name": "checkApproval",
+      "inputs": [],
+    {
+    },
+      "type": "event"
+      "name": "SubdomainRegistered",
+      ],
+        }
+          "type": "address"
+          "name": "owner",
+          "internalType": "address",
+          "indexed": true,
+        {
+        },
+          "type": "string"
+          "name": "label",
+          "internalType": "string",
+          "indexed": false,
+        {
+        },
+          "type": "bytes32"
+          "name": "parentNode",
+          "internalType": "bytes32",
+          "indexed": true,
+        {
+      "inputs": [
+      "anonymous": false,
+    {
+    },
+      "type": "event"
+      "name": "OwnershipTransferred",
+      ],
+        }
+          "type": "address"
+          "name": "newOwner",
+          "internalType": "address",
+          "indexed": true,
+        {
+        },
+          "type": "address"
+          "name": "previousOwner",
+          "internalType": "address",
+          "indexed": true,
+        {
+      "inputs": [
+      "anonymous": false,
+    {
+    },
+      "type": "event"
+      "name": "FeeUpdated",
+      ],
+        }
+          "type": "uint256"
+          "name": "newFee",
+          "internalType": "uint256",
+          "indexed": false,
+        {
+      "inputs": [
+      "anonymous": false,
+    {
+    },
+      "type": "event"
+      "name": "FeeRecipientUpdated",
+      ],
+        }
+          "type": "address"
+          "name": "newRecipient",
+          "internalType": "address",
+          "indexed": false,
+        {
+      "inputs": [
+      "anonymous": false,
+    {
+    },
+      "type": "event"
+      "name": "ApprovalGranted",
+      ],
+        }
+          "type": "address"
+          "name": "operator",
+          "internalType": "address",
+          "indexed": false,
+        {
+      "inputs": [
+      "anonymous": false,
+    {
+    },
+      "type": "constructor"
+      "stateMutability": "nonpayable",
+      ],
+        }
+          "type": "address"
+          "name": "_feeRecipient",
+          "internalType": "address",
+        {
+        },
+          "type": "uint256"
+          "name": "_registrationFee",
+          "internalType": "uint256",
+        {
+        },
+          "type": "bytes32"
+          "name": "_parentNode",
+          "internalType": "bytes32",
+        {
+        },
+          "type": "address"
+          "name": "_resolver",
+          "internalType": "address",
+        {
+        },
+          "type": "address"
+          "name": "_nameWrapper",
+          "internalType": "address",
+        {
+      "inputs": [
+    {
+[
+contract = new ethers.Contract(contractAddress, abi, signer);  // No `const` here
+const contractAddress = "0xeea1d44a251331D10E9B15638B828D18a4c49c47";
+contract = new ethers.Contract(contractAddress, abi, signer);
+const contract2 = new ethers.Contract(contractAddress, abi, signer);
+const contract = new ethers.Contract(contractAddress, abi, signer);
+console.log(label, fee.toString());  
+console.log(await contract.registrationFee()); // Check if contract is responsive  
+console.log(contract.address); // Ensure it’s correct  
+console.log(contract.interface.fragments.map(f => f.name));
+const errorReason2 = await contract.callStatic.register(label, { value: fee });
+const errorReason = await contract.callStatic.register(label, { value: fee });
+const tx2 = await contract.grantApproval();
+const tx = await contract.grantApproval();
+const errorReason = await contract.callStatic.register(label, { value: fee });
+console.log("Fee in Wei:", fee.toString());
+const receipt = await tx.wait();
+console.log("Transaction hash:", tx.hash);
+const tx = await contract.register(label, {value: fee,gasLimit: 500000,});
+console.log("Required fee:", ethers.formatEther(fee), "ETH");
+const fee = await contract.registrationFee();
+const label = "mysubdomain";
+const contract = await ethers.getContractAt("SubdomainRegister8","0xeea1d44a251331d10e9b15638b828d18a4c49c47");
